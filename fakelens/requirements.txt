@@ -1,13 +1,21 @@
+# Deep Learning
 torch
-transformers
-accelerate
-peft
+torchvision
+transformers>=4.56,<6
+peft>=0.17,<1
+accelerate>=1,<2
 huggingface_hub
+
+# Data Processing
 numpy
 Pillow
 scikit-learn
+pandas
+
+# Visualization
 matplotlib
 tqdm
-pandas
+
+# Dataset Downloads
 requests
 gdown
