@@ -128,3 +128,17 @@ To inspect or rerun the notebook in Google Colab:
 - [DINOv3 — official implementation](https://github.com/facebookresearch/dinov3)
 - [DINOv3 — paper](https://arxiv.org/abs/2508.10104)
 - [PEFT / LoRA](https://huggingface.co/docs/peft/index)
+
+## License and Attribution
+
+**Built with DINOv3**
+
+FakeLens uses the pretrained DINOv3 ViT-L/16 backbone developed by Meta AI.
+
+The pretrained backbone is subject to the [DINOv3 License](https://ai.meta.com/resources/models-and-libraries/dinov3-license/).
+
+The released checkpoint contains task-specific LoRA adapters and a convolutional segmentation decoder. It does not include the original pretrained backbone weights.
+
+The model is built using PyTorch, Hugging Face Transformers, and PEFT.
+
+**Author:** Nikita Nizov
