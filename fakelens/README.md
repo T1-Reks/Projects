@@ -9,6 +9,12 @@ FakeLens is **not** a detector for fully AI-generated images. Its predictions ar
 
 **[Try the interactive demo](https://huggingface.co/spaces/T1-Reks/fakelens)** · **[Training and evaluation notebook](FakeLens.ipynb)** · **[Model checkpoint](https://huggingface.co/spaces/T1-Reks/fakelens/blob/main/forgerylens_compact_best.pt)**
 
+## Example Prediction
+
+![FakeLens image forgery localization example](fakelens_example.png)
+
+*FakeLens localizes an inserted person in a nighttime street photograph. The visualization shows the input image, predicted manipulation overlay, and probability heatmap (threshold: 0.70).*
+
 ## Results
 
 | Dataset | Evaluation subset | Micro Dice / F1 | Micro IoU | Threshold |
