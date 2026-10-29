@@ -1,0 +1,13 @@
+torch
+transformers
+accelerate
+peft
+huggingface_hub
+numpy
+Pillow
+scikit-learn
+matplotlib
+tqdm
+pandas
+requests
+gdown
